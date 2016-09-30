@@ -1,0 +1,11 @@
+C:\ProgramasNatura\ConsolaIntegracion\RegenerarTicket\obj\Debug\RegenerarTicket.csprojResolveAssemblyReference.cache
+C:\ProgramasNatura\ConsolaIntegracion\RegenerarTicket\bin\Debug\RegenerarTicket.exe.config
+C:\ProgramasNatura\ConsolaIntegracion\RegenerarTicket\bin\Debug\RegenerarTicket.exe
+C:\ProgramasNatura\ConsolaIntegracion\RegenerarTicket\bin\Debug\RegenerarTicket.pdb
+C:\ProgramasNatura\ConsolaIntegracion\RegenerarTicket\bin\Debug\Datos.dll
+C:\ProgramasNatura\ConsolaIntegracion\RegenerarTicket\bin\Debug\Dapper.dll
+C:\ProgramasNatura\ConsolaIntegracion\RegenerarTicket\bin\Debug\Datos.pdb
+C:\ProgramasNatura\ConsolaIntegracion\RegenerarTicket\bin\Debug\Dapper.pdb
+C:\ProgramasNatura\ConsolaIntegracion\RegenerarTicket\bin\Debug\Dapper.xml
+C:\ProgramasNatura\ConsolaIntegracion\RegenerarTicket\obj\Debug\RegenerarTicket.exe
+C:\ProgramasNatura\ConsolaIntegracion\RegenerarTicket\obj\Debug\RegenerarTicket.pdb

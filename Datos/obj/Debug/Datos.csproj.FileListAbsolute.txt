@@ -1,0 +1,8 @@
+C:\ProgramasNatura\ConsolaIntegracion\Datos\bin\Debug\Datos.dll.config
+C:\ProgramasNatura\ConsolaIntegracion\Datos\bin\Debug\Datos.dll
+C:\ProgramasNatura\ConsolaIntegracion\Datos\bin\Debug\Datos.pdb
+C:\ProgramasNatura\ConsolaIntegracion\Datos\bin\Debug\Dapper.dll
+C:\ProgramasNatura\ConsolaIntegracion\Datos\bin\Debug\Dapper.pdb
+C:\ProgramasNatura\ConsolaIntegracion\Datos\bin\Debug\Dapper.xml
+C:\ProgramasNatura\ConsolaIntegracion\Datos\obj\Debug\Datos.dll
+C:\ProgramasNatura\ConsolaIntegracion\Datos\obj\Debug\Datos.pdb

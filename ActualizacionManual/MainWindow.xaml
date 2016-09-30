@@ -1,0 +1,44 @@
+﻿<Window x:Class="ActualizacionManual.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="560">
+    <Grid Margin="10 10 10 10" Width="523">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"></RowDefinition>
+        <RowDefinition Height="Auto"></RowDefinition>
+        <RowDefinition Height="*"></RowDefinition>
+    </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="auto"></ColumnDefinition>
+        <ColumnDefinition Width="auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border BorderThickness="1" CornerRadius="2" BorderBrush="Black" Padding="10px" Margin="10">
+        <StackPanel Orientation="Vertical">
+        <Label  FontWeight="Bold">Tickets : </Label>
+        <TextBox x:Name="TxtTicket" TextWrapping="Wrap" AcceptsReturn="True"   Width="100px" Height="60px" ></TextBox>
+        <Button Content="Cargar Tickets" Width="120px" Height="20px" Margin="10"   Name="btnCargar" ></Button>
+        </StackPanel>
+        </Border>
+        <Border Grid.Column="1" BorderThickness="1" CornerRadius="2" BorderBrush="Black" Padding="10px" Margin="10" >
+            
+            <StackPanel>
+                <Label >Tipo </Label>
+                <ComboBox Width="120">
+                    <ComboBoxItem>Personas</ComboBoxItem>
+                    <ComboBoxItem>Pedidos</ComboBoxItem>
+                    <ComboBoxItem>Facturas</ComboBoxItem>
+                    <ComboBoxItem>Deudas</ComboBoxItem>
+                </ComboBox>
+                <Button Content="Cargar Ticket" Width="120px" Height="20px" Margin="10"   Name="btnTicket" Click="btnTicket_Click" ></Button>
+            </StackPanel>
+</Border>
+
+        <Border Grid.Row="1" BorderThickness="1" CornerRadius="2" BorderBrush="Black" Padding="10px" Margin="10" >
+            
+            <StackPanel>
+                <Label >Tipo </Label>
+                <Button Content="Enviar Informacion" Width="120px" Height="20px" Margin="10,10,11,10"   x:Name="btnEnviar" Click="btnTicket_Click" />
+            </StackPanel>
+</Border>
+    </Grid>
+</Window>

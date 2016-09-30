@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10A77171-C0A4-4AAD-9F47-855F55407138}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Datos</RootNamespace>
+    <AssemblyName>Datos</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;PRUEBAS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.40.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.42\lib\net45\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConexionBD.cs" />
+    <Compile Include="Contexto.cs" />
+    <Compile Include="Facturas\NotaFiscalBoliviaPadraoERPOut_v1.cs" />
+    <Compile Include="Facturas\NotaFiscalBoliviaPadraoERPOut_v1_1.cs" />
+    <Compile Include="Facturas\NotaFiscalBoliviaPadraoERPOut_v1_1_Contexto.cs" />
+    <Compile Include="Facturas\NotaFiscalBoliviaPadraoERPOut_v1_Contexto.cs" />
+    <Compile Include="ObjLog.cs" />
+    <Compile Include="Pagos\PagamentoContaCorrenteNatBO_v1.cs" />
+    <Compile Include="Pagos\PagamentoContaCorrenteNatBO_v1_Contexto.cs" />
+    <Compile Include="Parametro.cs" />
+    <Compile Include="Pedidos\PedidoPadraoERPOut_v1.cs" />
+    <Compile Include="Pedidos\PedidoPadraoERPOut_v1_Contexto.cs" />
+    <Compile Include="Pedidos\PedidoPadraoERPOut_v2_1.cs" />
+    <Compile Include="Pedidos\PedidoPadraoERPOut_v2_1_Contexto.cs" />
+    <Compile Include="Personas\PessoaPadraoERPOut_v1.cs" />
+    <Compile Include="Personas\PessoaPadraoERPOut_v1_1.cs" />
+    <Compile Include="Personas\PessoaPadraoERPOut_v1_1_Contexto.cs" />
+    <Compile Include="Personas\PessoaPadraoERPOut_v1_Contexto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Revendedores\RevendedorNatBO_v1.cs" />
+    <Compile Include="Revendedores\RevendedorNatBO_v1_Contexto.cs" />
+    <Compile Include="Service References\NaturaBoliviaPadraoPruebas\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\PadraoPruebas\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Tickets.cs" />
+    <Compile Include="Deudas\TituloPadraoERPOut_v1.cs" />
+    <Compile Include="Deudas\TituloPadraoERPOut_v1_Contexto.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Service References\NaturaBoliviaPadraoPruebas\Datos.NaturaBoliviaPadraoPruebas.AdicionarConfirmacaoTicketResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NaturaBoliviaPadraoPruebas\Datos.NaturaBoliviaPadraoPruebas.ArrayOfString.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NaturaBoliviaPadraoPruebas\Datos.NaturaBoliviaPadraoPruebas.ExportarDadosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NaturaBoliviaPadraoPruebas\Datos.NaturaBoliviaPadraoPruebas.ImportarDadosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NaturaBoliviaPadraoPruebas\Datos.NaturaBoliviaPadraoPruebas.RetornoExportacao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NaturaBoliviaPadraoPruebas\Datos.NaturaBoliviaPadraoPruebas.RetornoImportacao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NaturaBoliviaPadraoPruebas\IntegracaoPadraoNaturaBoliviaWS.wsdl" />
+    <None Include="Service References\PadraoPruebas\Datos.PadraoPruebas.AdicionarConfirmacaoTicketResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PadraoPruebas\Datos.PadraoPruebas.ArrayOfString.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PadraoPruebas\Datos.PadraoPruebas.ExportarDadosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PadraoPruebas\Datos.PadraoPruebas.ImportarDadosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PadraoPruebas\Datos.PadraoPruebas.RetornoExportacao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PadraoPruebas\Datos.PadraoPruebas.RetornoImportacao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PadraoPruebas\IntegracaoPadraoWS.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\NaturaBoliviaPadraoPruebas\" />
+    <WCFMetadataStorage Include="Service References\PadraoPruebas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\NaturaBoliviaPadraoPruebas\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\NaturaBoliviaPadraoPruebas\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\NaturaBoliviaPadraoPruebas\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PadraoPruebas\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PadraoPruebas\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PadraoPruebas\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

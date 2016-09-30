@@ -1,0 +1,4 @@
+C:\ProgramasNatura\ConsolaIntegracion\ConsolaIntegracion\obj\Debug\ConsolaIntegracion.csprojResolveAssemblyReference.cache
+C:\ProgramasNatura\ConsolaIntegracion\ConsolaIntegracion\obj\Debug\ConsolaIntegracion.exe
+C:\ProgramasNatura\ConsolaIntegracion\ConsolaIntegracion\obj\Debug\ConsolaIntegracion.pdb
+C:\ProgramasNatura\ConsolaIntegracion\ConsolaIntegracion\bin\Debug\ConsolaIntegracion.exe.config

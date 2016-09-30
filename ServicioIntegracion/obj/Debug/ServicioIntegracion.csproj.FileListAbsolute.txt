@@ -1,0 +1,13 @@
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\obj\Debug\ServicioIntegracion.ProjectInstaller.resources
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\obj\Debug\ServicioIntegracion.csproj.GenerateResource.Cache
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\bin\Debug\ServicioIntegracion.exe.config
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\bin\Debug\ServicioIntegracion.exe
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\bin\Debug\ServicioIntegracion.pdb
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\bin\Debug\Datos.dll
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\bin\Debug\Dapper.dll
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\bin\Debug\Datos.pdb
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\bin\Debug\Dapper.pdb
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\bin\Debug\Dapper.xml
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\obj\Debug\ServicioIntegracion.csprojResolveAssemblyReference.cache
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\obj\Debug\ServicioIntegracion.exe
+C:\ProgramasNatura\ConsolaIntegracion\ServicioIntegracion\obj\Debug\ServicioIntegracion.pdb
